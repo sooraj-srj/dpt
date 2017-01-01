@@ -10,7 +10,14 @@
 | to using a Closure or controller method. Build something great!
 |
 */
+define("WC", "WebController", TRUE);
+define("AC", "AdminController", TRUE);
 
-Route::get('/', function () {
-    return view('welcome');
+/* ----------- Web section ----------*/
+Route::get('/',WC.'@index');
+
+/* ----------- Admin section ----------*/
+Route::group(['prefix' => 'admin'], function () {
+    Route::get('/', AC . '@index');
 });
+
