@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>title</title>
+    <title>Dubai Private Tour Discover Dubai with Dubai Private Tour</title>
 
     <!-- Bootstrap -->
     <link href="{{ URL::asset('css/bootstrap.min.css') }}" rel="stylesheet">
@@ -50,7 +50,7 @@
                 <div id="head-mobile"></div>
                 <div class="button"></div>
                 <ul class="menu-ul-style">
-                    <li class='active'><a href='index.html'>HOME</a></li>
+                    <li class='active'><a href='{{url('/')}}'>HOME</a></li>
                     <li><a href='#'>Tours & Safaries</a>
                         <ul>
                             <li><a href='list.html'>City Tours</a></li>
@@ -74,7 +74,7 @@
                     <li><a href='ourguide.html'>Our Guides</a></li>
                     <li><a href='review.html'>Review</a></li>
                     <li><a href='gallery.html'>GALLERY</a></li>
-                    <li><a href='contact.html'>CONTACT</a></li>
+                    <li><a href='{{url('contact')}}'>CONTACT</a></li>
                 </ul>
             </nav>
         </div>
