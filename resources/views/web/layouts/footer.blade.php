@@ -116,6 +116,10 @@
 <script src="{{ URL::asset('js/menumaker.js') }}"></script>
 <script src="{{ URL::asset('js/owl.carousel.min.js') }}"></script>
 <script src="{{ URL::asset('js/owl.custom.js') }}"></script>
+<script src="{{ URL::asset('js/calen.js') }}"></script>
+<script src="{{ URL::asset('js/jssor.slider-22.0.7.min.js') }}"></script>
+<script src="{{ URL::asset('js/jssor.custom.js') }}"></script>
+
 <script>
     $("body").data("page", "frontpage");
 </script>

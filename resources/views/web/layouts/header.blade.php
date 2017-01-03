@@ -70,10 +70,10 @@
                             <li><a href='list.html'>Al Ain </a></li>
                         </ul>
                     </li>
-                    <li><a href='touristvisa.html'>Tourist Visa</a></li>
-                    <li><a href='ourguide.html'>Our Guides</a></li>
-                    <li><a href='review.html'>Review</a></li>
-                    <li><a href='gallery.html'>GALLERY</a></li>
+                    <li><a href='{{url('tourist-visa')}}'>Tourist Visa</a></li>
+                    <li><a href='{{url('our-guide')}}'>Our Guides</a></li>
+                    <li><a href='{{url('reviews')}}'>Review</a></li>
+                    <li><a href='{{url('gallery')}}'>GALLERY</a></li>
                     <li><a href='{{url('contact')}}'>CONTACT</a></li>
                 </ul>
             </nav>
